@@ -1,0 +1,34 @@
+{
+  "name": "veqtrx-crypto-reference",
+  "version": "1.0.0",
+  "description": "Reference implementation of zero-knowledge encryption used in Veqtrx affordability infrastructure. Built for transparency and independent verification.",
+  "type": "module",
+  "main": "src/zero-knowledge.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "zero-knowledge",
+    "encryption",
+    "fintech",
+    "web-crypto",
+    "envelope-encryption",
+    "veqtrx"
+  ],
+  "author": "Vaibhav Iyer <hello.veqtrx@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaibhavkiyer24/veqtrx-crypto-reference.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
