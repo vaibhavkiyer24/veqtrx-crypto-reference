@@ -123,9 +123,9 @@ What this construction does **not** defend against:
 
 ## Related documents
 
-- **Security whitepaper** — full architecture + threat model + audit roadmap. Lives in the application repo under `docs/security-whitepaper.md`.
-- **Security FAQ** — common questions from banks / partners / regulators. Lives in the application repo under `docs/security-faq.md`.
-- **Privacy policy** — UK GDPR posture. Live at https://veqtrx.co.uk/privacy.
+- **Security whitepaper** — full architecture + threat model + audit roadmap. https://veqtrx.co.uk/security-whitepaper.html
+- **Security overview + FAQ** — what we can/cannot see, audit trail, compliance roadmap, top FAQ. https://veqtrx.co.uk/security
+- **Privacy policy** — UK GDPR posture. https://veqtrx.co.uk/privacy
 
 ## Reporting issues
 
