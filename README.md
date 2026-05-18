@@ -13,7 +13,7 @@ This repository contains the actual cryptographic code that runs in every Veqtrx
 | **Version** | 1.0.0 |
 | **License** | [MIT](./LICENSE) |
 | **External audit** | Planned Q2 2027 (SOC 2 Type I roadmap). See [whitepaper](#related-documents). |
-| **Production usage** | This exact file ships verbatim to every visitor of veqtrx.co.uk |
+| **Production usage** | This exact file ships verbatim to every visitor of veqtrx.netlify.app |
 
 ## TL;DR — the three claims
 
@@ -93,7 +93,7 @@ All tests should pass on Node 20+ (uses the built-in `globalThis.crypto`). Each 
 
 To confirm this is the exact code running in production:
 
-1. Visit https://veqtrx.co.uk in a browser.
+1. Visit https://veqtrx.netlify.app in a browser.
 2. Open DevTools → Sources → look for the bundled chunk containing `deriveKEK`.
 3. Diff against `src/zero-knowledge.ts` in this repo. Comments may differ (build minification); function bodies should be identical modulo minification.
 
@@ -123,9 +123,9 @@ What this construction does **not** defend against:
 
 ## Related documents
 
-- **Security whitepaper** — full architecture + threat model + audit roadmap. https://veqtrx.co.uk/security-whitepaper.html
-- **Security overview + FAQ** — what we can/cannot see, audit trail, compliance roadmap, top FAQ. https://veqtrx.co.uk/security
-- **Privacy policy** — UK GDPR posture. https://veqtrx.co.uk/privacy
+- **Security whitepaper** — full architecture + threat model + audit roadmap. https://veqtrx.netlify.app/security-whitepaper.html
+- **Security overview + FAQ** — what we can/cannot see, audit trail, compliance roadmap, top FAQ. https://veqtrx.netlify.app/security
+- **Privacy policy** — UK GDPR posture. https://veqtrx.netlify.app/privacy
 
 ## Reporting issues
 
